@@ -7,4 +7,4 @@ Aplikasi ini adalah Sistem Informasi berbasis web yang dikembangkan menggunakan 
 * Pengelolaan Data Master
 * Cetak Laporan (PDF/Excel)
 
-![Halaman Logbook](ss-logbook.png)
+![Halaman Logbook](ss-logbook.PNG)
