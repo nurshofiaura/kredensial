@@ -6,3 +6,5 @@ Aplikasi ini adalah Sistem Informasi berbasis web yang dikembangkan menggunakan 
 * Halaman *Login* & Autentikasi
 * Pengelolaan Data Master
 * Cetak Laporan (PDF/Excel)
+
+![Halaman Login](ss-logbook.png)
