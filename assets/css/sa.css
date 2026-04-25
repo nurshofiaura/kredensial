@@ -1,0 +1,12 @@
+    td.details-control {
+        background: url('https://simrsib.com/assets/imgs/details_open.png') no-repeat center center;
+        cursor: pointer;
+    }
+    tr.shown td.details-control {
+        background: url('https://simrsib.com/assets/imgs/details_close.png') no-repeat center center;
+    }
+
+    .rapikan_tb_dtgrid{
+      margin-right : 10px;
+      padding-bottom: 10px;
+    }

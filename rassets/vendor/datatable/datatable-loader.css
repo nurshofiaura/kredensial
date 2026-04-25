@@ -1,0 +1,96 @@
+table.dataTable tbody tr.selected {
+    background-color: rgba(85, 110, 230, 0.18) !important;
+}
+
+/* PAKSA SEMUA TEXT JADI GELAP */
+table.dataTable tbody tr.selected td,
+table.dataTable tbody tr.selected th {
+    color: #212529 !important;
+    font-weight: 500;
+}
+
+/* hover */
+table.dataTable tbody tr.selected:hover {
+    background-color: rgba(85, 110, 230, 0.28) !important;
+}
+
+/* icon & link */
+table.dataTable tbody tr.selected a,
+table.dataTable tbody tr.selected i {
+    color: #556ee6 !important;
+}
+
+/* badge tetap kontras */
+table.dataTable tbody tr.selected .badge {
+    background-color: #556ee6 !important;
+    color: #fff !important;
+}
+
+/* checkbox select */
+td.select-checkbox::before {
+    content: "☐";
+    color: #adb5bd;
+    font-size: 14px;
+}
+
+tr.selected td.select-checkbox::before {
+    content: "☑";
+    color: #556ee6;
+    font-weight: bold;
+}
+.dt-buttons {
+    float: left !important;
+    margin-bottom: 8px;
+}
+
+.dt-buttons .dt-button {
+    padding: 4px 10px !important;
+    font-size: 12px !important;
+    line-height: 1.4 !important;
+    border-radius: 4px !important;
+    margin-right: 6px !important;
+}
+.dt-button.btn {
+    padding: 4px 10px !important;
+    font-size: 12px !important;
+}
+.dataTables_wrapper .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.dt-buttons-wrap {
+    padding-left: 12px;   /* ini kuncinya */
+}
+
+.dt-buttons {
+    margin-left: 0 !important;
+}
+.dt-button-collection .dt-button {
+    color: #212529 !important;
+    background: #fff !important;
+}
+
+.dt-button-collection .dt-button.active {
+    background-color: #556ee6 !important;
+    color: #fff !important;
+}
+.dt-button-collection {
+    padding: 8px !important;
+}
+
+.dt-button-collection .dt-button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 4px;
+}
+td.dt-control {
+    cursor: pointer;
+}
+td.dt-control::before {
+    content: "➕";
+}
+tr.shown td.dt-control::before {
+    content: "➖";
+}
